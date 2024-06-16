@@ -1,0 +1,56 @@
+body{
+     margin-left: 85px;
+     margin-right: 40px;
+     padding: 0px;
+     background-color:darkcyan;
+     text-align: center;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+     gap:25px;
+     align-items: center;
+}
+.card{
+     border-style: solid;
+     text-align: center;
+     font-family: 'Times New Roman';
+     background: linear-gradient(90deg, rgba(36,21,0,0.8240546218487395) 0%, rgba(194,189,18,0.9697128851540616) 50%, rgba(99,99,54,0.8744747899159664) 94%);
+     color: whitesmoke;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 20px;
+     width: 400px;
+     height: 490px;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman';
+    text-shadow: 50px;
+    border-style: solid;
+    background-color: black;
+}
+button{
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        background-color: dodgerblue;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+button:hover{
+      background: transparent;
+      border: 2px solid white;
+      color: aliceblue;
+}
+.cName,.cWeather{
+    color: black;
+}
+
+
+
+
